@@ -11,15 +11,13 @@ public class Application {
 		int random = (int) (Math.random() * 100) + 1;
 
 		Scanner sc = new Scanner(System.in);
-		System.out.println("[???] : 취업을 위해 공부를 시작해야 해요. ");
-		System.out.println("[???] : 공부를 해서 취업에 성공하세요.");
+		System.out.println("취업을 위해 공부를 시작해야 해요. ");
+		System.out.println("공부를 해서 취업에 성공하세요.");
 		System.out.println("===================================");
-		System.out.println("[???] : 공부 할 사람을 선택해주세요");
-		System.out.println("[???] : 1. 진호 2. 다현 3. 유찬 ");
-		int a = sc.nextInt();
-		System.out.println("[???] : 공부할 언어를 골라주세요 ");
-		System.out.println("[???] : 1. java 2. Sql 3. Css ");
-
+		System.out.println("당신의 이름을 입력하세요.");
+		String str = sc.next();
+		System.out.println("공부할 언어를 골라주세요 ");
+		System.out.println(" 1. java 2. c 3. Css ");
 		int b = sc.nextInt();
 
 		Java java = new Java();
