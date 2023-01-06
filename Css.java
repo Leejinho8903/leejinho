@@ -41,7 +41,7 @@ public class Css implements Develop {
 
 	@Override // 프로젝트 발생
 	public void joinProject() {
-		System.out.println("[프로젝트 제안]이 왔습니다. 열심히 한다면 좋은 결과가 있을 겁니다.");
+		System.out.println("[Css 프로젝트 제안]이 왔습니다. 열심히 한다면 좋은 결과가 있을 겁니다.");
 	}
 
 	@Override
@@ -60,7 +60,7 @@ public class Css implements Develop {
 	
 	@Override
 	public String badEnding() {
-		return "[어디로 가야하오]";
+		return "[어디로 가야하오.]";
 	}
 
 	@Override
@@ -69,7 +69,7 @@ public class Css implements Develop {
 		System.out.println("............");
 		System.out.println(".....................");
 		System.out.println("..............................");
-		System.out.println("당신은 이세계에서 안됩니다. 개발집 막내아들 프로젝트 시작합니다.");
+		System.out.println("당신은 이 세계에서 안됩니다. 개발집 둘째아들 프로젝트 시작합니다.");
 		System.out.println("[나] : 여긴 어디지? .....");
 		System.out.println("2편을 기대해주세요 .....");
 		
