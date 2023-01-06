@@ -14,7 +14,7 @@ public class Application {
 		System.out.println("[???] : 취업을 위해 공부를 시작해야 해요. ");
 		System.out.println("[???] : 공부를 해서 취업에 성공하세요.");
 		System.out.println("===================================");
-		System.out.println("[???] : 사람마다 잠재력이 달라요 선택해주세요");
+		System.out.println("[???] : 공부 할 사람을 선택해주세요");
 		System.out.println("[???] : 1. 진호 2. 다현 3. 유찬 ");
 		int a = sc.nextInt();
 		System.out.println("[???] : 공부할 언어를 골라주세요 ");
