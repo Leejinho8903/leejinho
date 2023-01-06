@@ -77,7 +77,7 @@ public class Application {
 								System.out.println(java.ending());
 								if (java.getJavaPoint() < 60) { // 배드배드 엔딩
 									java.hiddenEnding(); // 오버라이딩 된 히든엔딩
-									
+
 									return;
 								}
 
@@ -152,7 +152,7 @@ public class Application {
 								System.out.println(Sql.badEnding());
 								if (Sql.getSqlPoint() < 60) { // 배드배드 엔딩
 									Sql.hiddenEnding(); // 오버라이딩 된 히든엔딩
-									
+
 									return;
 								}
 
@@ -247,6 +247,8 @@ public class Application {
 					}
 				}
 			}
+		case 4:
+			System.out.println("이걸 왜누르시나요?");
 		}
 	}
 
