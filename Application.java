@@ -73,7 +73,7 @@ public class Application {
 
 								}
 
-							} else { // 배드엔딩을 else 하나 더 써서 내리기
+							} else { 
 								System.out.println(java.ending());
 								if (java.getJavaPoint() < 60) { // 배드배드 엔딩
 									java.hiddenEnding();
@@ -148,7 +148,7 @@ public class Application {
 
 								}
 
-							} else { // 배드엔딩을 else 하나 더 써서 내리기
+							} else { 
 								System.out.println(Sql.badEnding());
 								if (Sql.getSqlPoint() < 60) { // 배드배드 엔딩
 									Sql.hiddenEnding();
@@ -222,7 +222,7 @@ public class Application {
 
 								}
 
-							} else { // 배드엔딩을 else 하나 더 써서 내리기
+							} else { 
 								System.out.println(Css.badEnding());
 								if (Css.getCssPoint() < 60) { // 배드배드 엔딩
 									Css.hiddenEnding();
